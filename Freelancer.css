@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(83, 83, 83, 0.425);
+}
+body {
+  background-color: rgba(83, 83, 83, 0.425);; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, rgba(85, 68, 238, 0.712), rgba(154, 18, 218, 0.747));
+}
+#intro1:hover,#intro2:hover,#intro3:hover{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.527);
+}
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: rgb(242, 255, 60);
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: rgb(4, 0, 255);
+  }
+
+.breadcrumb{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card{
+  width: 18rem; 
+  margin-left: 3vw; 
+  margin-top: 2.8vw;
+}
+
+.stiyck {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+}
+button{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+}
